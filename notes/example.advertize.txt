@@ -1,0 +1,15 @@
+//Muation for Post Advertiz
+
+mutation postAdvertize($advertizeData: AdvertizeInput!){
+  postAdvertize(advertizeData: $advertizeData)
+}
+
+//Query Variables
+{
+  "advertizeData": {
+  	"title": "New Advertize", 
+    "description": "Advertize Description", 
+    "price": "25", 
+    "email": "patel.jayk12@gmail.com"
+  }
+}
